@@ -5,3 +5,9 @@ nota3 = int(input("Digite a terceira nota "))
 med = (nota1 + nota2 + nota3) / 3
 
 print(f"Média é: ", med)
+
+if med > 6:
+  print("Aprovado")
+
+else:
+  print("Reprovado")
