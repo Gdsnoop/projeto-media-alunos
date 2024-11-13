@@ -9,5 +9,7 @@ print(f"Média é: ", med)
 if med > 6:
   print("Aprovado")
 
+elif med>5:
+  print("Recuperação")
 else:
   print("Reprovado")
